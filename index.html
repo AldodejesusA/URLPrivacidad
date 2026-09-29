@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Aviso de Privacidad · ZANKATEC</title>
-  <meta name="description" content="Aviso de privacidad de ZANKATEC, plataforma de avisos de seguridad para la ciudad de Guanajuato, Gto.">
+  <title>Aviso de Privacidad · PACTOS</title>
+  <meta name="description" content="Aviso de privacidad del proyecto PACTOS.">
   <style>
     :root {
       --bg: #f7f4ee;
@@ -13,8 +13,6 @@
       --text: #1f2328;
       --muted: #5b616b;
       --accent: #3d5a80;
-      --accent-soft: #e6ecf4;
-      --pending: #b45309;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -24,8 +22,6 @@
         --text: #e8e6e1;
         --muted: #a2a7b0;
         --accent: #8fb0d9;
-        --accent-soft: #243142;
-        --pending: #f0a35e;
       }
     }
     * { box-sizing: border-box; }
@@ -35,145 +31,54 @@
       color: var(--text);
       font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     }
-    .wrap { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
-    header { margin-bottom: 28px; }
-    .brand {
-      display: inline-block;
-      font-weight: 700;
-      letter-spacing: .08em;
-      color: var(--accent);
-      font-size: .85rem;
-      text-transform: uppercase;
-    }
-    h1 { font-size: clamp(1.7rem, 4vw, 2.2rem); line-height: 1.2; margin: 6px 0 8px; }
-    .meta { color: var(--muted); font-size: .92rem; margin: 0; }
-    nav {
+    main {
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 28px 24px;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 16px 20px;
-      margin-bottom: 20px;
     }
-    nav strong { display: block; margin-bottom: 6px; }
-    nav ol { margin: 0; padding-left: 20px; columns: 2 240px; column-gap: 24px; }
-    nav a { color: var(--accent); text-decoration: none; }
-    nav a:hover { text-decoration: underline; }
-    section {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px 24px;
-      margin-bottom: 16px;
-      scroll-margin-top: 16px;
+    @media (max-width: 760px) {
+      main { margin: 16px; padding: 20px 16px; }
     }
-    h2 { font-size: 1.15rem; margin: 0 0 10px; color: var(--accent); }
-    h3 { font-size: 1rem; margin: 16px 0 4px; }
+    h1 { font-size: 1.8rem; line-height: 1.2; margin: 0 0 4px; }
+    .meta { color: var(--muted); font-size: .9rem; margin: 0 0 20px; }
+    h2 { font-size: 1.1rem; color: var(--accent); margin: 24px 0 6px; }
     p, ul { margin: 0 0 10px; }
     ul { padding-left: 20px; }
-    li { margin-bottom: 4px; }
-    .note {
-      background: var(--accent-soft);
-      border-radius: 8px;
-      padding: 10px 14px;
-      font-size: .95rem;
-    }
-    .pending { color: var(--pending); font-weight: 600; }
-    a { color: var(--accent); }
-    footer { color: var(--muted); font-size: .88rem; text-align: center; margin-top: 28px; }
+    footer { color: var(--muted); font-size: .85rem; text-align: center; margin: 0 16px 32px; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <span class="brand">ZANKATEC</span>
-      <h1>Aviso de Privacidad Integral</h1>
-      <p class="meta">Plataforma de avisos de seguridad para la ciudad de Guanajuato, Gto. · Última actualización: 29 de septiembre de 2026</p>
-    </header>
+  <main>
+    <h1>Aviso de Privacidad</h1>
+    <p class="meta">PACTOS · Última actualización: 29 de septiembre de 2026</p>
 
-    <nav aria-label="Contenido">
-      <strong>Contenido</strong>
-      <ol>
-        <li><a href="#responsable">Responsable</a></li>
-        <li><a href="#datos">Datos que recabamos</a></li>
-        <li><a href="#finalidades">Finalidades</a></li>
-        <li><a href="#terceros">Servicios de terceros</a></li>
-        <li><a href="#cookies">Cookies y almacenamiento local</a></li>
-        <li><a href="#arco">Derechos ARCO</a></li>
-        <li><a href="#revocacion">Revocación del consentimiento</a></li>
-        <li><a href="#cambios">Cambios a este aviso</a></li>
-      </ol>
-    </nav>
+    <p><strong>PACTOS</strong> es responsable del uso y protección de tus datos personales, y te informa lo siguiente:</p>
 
-    <section id="responsable">
-      <h2>1. Responsable del tratamiento</h2>
-      <p>El equipo de desarrollo del proyecto <strong>ZANKATEC</strong> (en adelante, "ZANKATEC"), con sede en Guanajuato, Gto., México, es responsable del tratamiento de los datos personales que se recaben a través de esta plataforma, conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.</p>
-      <p>Correo de contacto: <span class="pending">[correo de contacto]</span></p>
-    </section>
+    <h2>¿Qué datos recabamos?</h2>
+    <p>Podemos solicitar datos de identificación y contacto, como nombre, correo electrónico y teléfono, además de datos técnicos de navegación (dirección IP, tipo de navegador y fecha de acceso). No recabamos datos personales sensibles.</p>
 
-    <section id="datos">
-      <h2>2. Datos personales que recabamos</h2>
-      <h3>Personas que consultan los avisos</h3>
-      <p>Consultar los avisos, la lista y el mapa <strong>no requiere registro</strong>. No te pedimos nombre, correo ni teléfono, y no usamos la ubicación de tu dispositivo.</p>
-      <h3>Administradores de la plataforma</h3>
-      <ul>
-        <li>Nombre y correo electrónico.</li>
-        <li>Credenciales de acceso al panel de administración.</li>
-        <li>Registro de las acciones realizadas: qué aviso se publicó, editó o finalizó y cuándo.</li>
-      </ul>
-      <h3>Datos técnicos</h3>
-      <p>Al visitar el sitio, el servidor puede registrar automáticamente tu dirección IP, tipo de navegador, sistema operativo y la fecha y hora de acceso, para seguridad y funcionamiento del servicio.</p>
-      <p class="note">No recabamos datos personales sensibles. Los avisos publicados contienen información de interés público (tipo, zona, vigencia y fuente oficial) y no deben incluir datos personales de particulares.</p>
-    </section>
+    <h2>¿Para qué los usamos?</h2>
+    <ul>
+      <li>Brindarte los servicios y la información de la plataforma.</li>
+      <li>Atender tus dudas, comentarios o solicitudes.</li>
+      <li>Mejorar el funcionamiento y la seguridad del sitio.</li>
+    </ul>
 
-    <section id="finalidades">
-      <h2>3. Finalidades del tratamiento</h2>
-      <p>Usamos los datos personales para:</p>
-      <ul>
-        <li>Permitir el acceso seguro al panel de administración.</li>
-        <li>Identificar quién publica, edita o retira cada aviso, para dar trazabilidad y confiabilidad a la información.</li>
-        <li>Mantener la seguridad, prevenir usos indebidos y corregir fallas técnicas del sitio.</li>
-      </ul>
-      <p>No usamos tus datos con fines publicitarios o de mercadotecnia, y <strong>no los vendemos ni los transferimos</strong> a terceros, salvo cuando lo exija una autoridad competente conforme a la ley.</p>
-    </section>
+    <h2>¿Compartimos tus datos?</h2>
+    <p>No vendemos, rentamos ni compartimos tus datos personales con terceros, salvo cuando lo requiera una autoridad competente conforme a la ley.</p>
 
-    <section id="terceros">
-      <h2>4. Servicios de terceros</h2>
-      <p>Para funcionar, la plataforma utiliza servicios externos que pueden tratar datos técnicos bajo sus propias políticas:</p>
-      <ul>
-        <li><strong>Google Maps Platform</strong> (Google LLC): muestra el mapa y Street View. Google puede recibir tu dirección IP y usar cookies propias. Consulta la <a href="https://policies.google.com/privacy?hl=es" rel="noopener" target="_blank">Política de privacidad de Google</a>.</li>
-        <li><strong>Proveedor de alojamiento web</strong>: aloja el sitio y puede conservar registros técnicos de acceso (IP, fecha y hora).</li>
-      </ul>
-    </section>
+    <h2>¿Cómo protegemos tus datos?</h2>
+    <p>Aplicamos medidas de seguridad administrativas, técnicas y físicas para evitar su pérdida, mal uso, acceso no autorizado o alteración.</p>
 
-    <section id="cookies">
-      <h2>5. Cookies y almacenamiento local</h2>
-      <p>ZANKATEC guarda en tu propio navegador (<em>localStorage</em>) únicamente tu preferencia de tema visual (Sistema, Claro u Oscuro). Este dato no se envía a nuestros servidores y puedes borrarlo en cualquier momento desde la configuración de tu navegador.</p>
-      <p>El mapa de Google puede instalar cookies propias de Google. Puedes bloquearlas o eliminarlas desde tu navegador, aunque el mapa podría dejar de funcionar correctamente.</p>
-    </section>
+    <h2>Tus derechos (ARCO)</h2>
+    <p>Puedes solicitar en cualquier momento el acceso, rectificación, cancelación u oposición al uso de tus datos personales, así como revocar tu consentimiento, escribiéndonos a <strong>[correo de contacto]</strong>.</p>
 
-    <section id="arco">
-      <h2>6. Derechos ARCO</h2>
-      <p>Tienes derecho a <strong>Acceder</strong> a tus datos personales, <strong>Rectificarlos</strong> si son inexactos, <strong>Cancelarlos</strong> cuando consideres que no se requieren para las finalidades señaladas, y <strong>Oponerte</strong> a su tratamiento.</p>
-      <p>Para ejercerlos, envía una solicitud a <span class="pending">[correo de contacto]</span> con:</p>
-      <ul>
-        <li>Tu nombre y un medio para responderte.</li>
-        <li>Un documento que acredite tu identidad o, en su caso, la de tu representante.</li>
-        <li>La descripción clara de los datos y del derecho que deseas ejercer.</li>
-      </ul>
-      <p>Te responderemos en un plazo máximo de 20 días hábiles.</p>
-    </section>
-
-    <section id="revocacion">
-      <h2>7. Revocación del consentimiento</h2>
-      <p>Puedes revocar en cualquier momento el consentimiento que nos hayas otorgado para el tratamiento de tus datos, enviando tu solicitud al mismo correo de contacto. La revocación puede implicar que ya no puedas acceder al panel de administración.</p>
-    </section>
-
-    <section id="cambios">
-      <h2>8. Cambios a este aviso</h2>
-      <p>Este aviso puede actualizarse por cambios legales, nuevas funciones de la plataforma o ajustes en nuestros procesos. Cualquier cambio se publicará en esta misma página, indicando la fecha de la última actualización.</p>
-    </section>
-
-    <footer>© 2026 ZANKATEC · Guanajuato, Gto., México</footer>
-  </div>
+    <h2>Cambios a este aviso</h2>
+    <p>Este aviso puede actualizarse. Cualquier cambio se publicará en esta misma página.</p>
+  </main>
+  <footer>© 2026 PACTOS</footer>
 </body>
 </html>
